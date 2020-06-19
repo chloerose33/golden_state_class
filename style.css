@@ -13,11 +13,13 @@
     align-items: center;
   }
   main {
-    font-size: 0;
+    font-size: 10px;
     width: 60%;
     margin: auto;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    color: black;
   }
   .image {
     height: 200px;
@@ -33,21 +35,26 @@
     height: 300px;
   }
   .yellow {
-    background: yellow;
+    
   }
   .red {
-    background: red;
+   
   }
   .green {
-    background: green;
+    
   }
+
+  i {
+    color: purple;
+  }
+
   footer {
     height: 50px;
-    background: purple;
     position: fixed;
     width: 100%;
     bottom: 0;
     box-sizing: border-box;
+    padding: 10px;
   }
   
   @media only screen and (max-width: 900px) { 
