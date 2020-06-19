@@ -20,8 +20,10 @@
     flex-direction: column;
   }
   .image {
+    height: 200px;
     background-size: 100%;
     background-position: center;
+    background-image:url("https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png");
   }
   main .row {
     display: flex;
